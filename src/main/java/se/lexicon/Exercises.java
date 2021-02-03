@@ -12,7 +12,7 @@ public class Exercises {
     public static void exercise1(String message){
         System.out.println(message);
         Predicate<Person> findFirstCondition = person -> person.getFirstName().equalsIgnoreCase("Erik");
-        List<Person>WithErikName.forEach(person -> System.out.orintln(person);
+        List<Person>WithErikName.forEach(person -> System.out.println(person);
         storage.findMany();
 
         System.out.println("----------------------");
@@ -23,7 +23,9 @@ public class Exercises {
      */
     public static void exercise2(String message){
         System.out.println(message);
-        //Write your code here
+        Predicate<Person> findFirstCondition = person -> person.getGender().equals("FEMALE");
+        List<Person>women.forEach(person -> System.out.println(person);
+        storage.findMany();
 
         System.out.println("----------------------");
     }
@@ -33,7 +35,8 @@ public class Exercises {
      */
     public static void exercise3(String message){
         System.out.println(message);
-        //Write your code here
+
+
 
         System.out.println("----------------------");
     }
